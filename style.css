@@ -1,0 +1,49 @@
+/*index*/
+.header{
+    background-image: url("Images/bgHeader.jpeg");
+    color: darkblue;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-image: url("Images/bgBody.jpeg");
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    transform: scale(1.02);
+}
+.heading{
+    padding-left: 500px;
+}
+.menu{
+    margin-right: 100px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+a:link{
+    color: white;
+}
+
+/*followUs*/
+.footer{
+    margin: 100px;
+}
+
+/*aboutUs*/
+#logo{
+    margin: 50px;
+    border-radius: 50%;
+}
+.aboutus{
+        display: flex;
+        justify-content: flex-end;
+}
+.text{
+    margin-top: 250px;
+    margin-right: 50px;
+}
